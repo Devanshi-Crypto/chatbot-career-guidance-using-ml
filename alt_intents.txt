@@ -1,0 +1,7 @@
+q_list_gen=["what is your stream?","question2"]
+
+
+"What is your stream?"
+q_stream=0
+stream_resp=["Okay don't worry I have got your back ","I You have a wide range of options for you.","You are in the game","Lets see what can I do for you","Tujhe kahan career ki chinta hai?"]
+	
