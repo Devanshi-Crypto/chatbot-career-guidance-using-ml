@@ -74,10 +74,6 @@ class App:
         self.text_widget.place(relheight=0.745,relwidth=1,rely=0.08)
         self.text_widget.configure(cursor="arrow",state=DISABLED)
         
-        #scrollbar
-        scrollbar=Scrollbar(self.text_widget)
-        scrollbar.place(relheight=1,relx=0.974)
-        scrollbar.configure(command=self.text_widget.yview)
         
         #bottomlabel
         bottom_label = Label(self.frame_right,height=80)  
@@ -121,7 +117,7 @@ class App:
         self.text_widget.insert(END,bot)
         self.text_widget.configure(state=DISABLED)
         
-        self.text_widget.see(END)
+        self.text_widget.yview(END)
         
 
         
